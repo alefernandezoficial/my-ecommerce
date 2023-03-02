@@ -1,0 +1,58 @@
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.carousel-item h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.carousel-item p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#carouselExample {
+    width: 100%;
+    height: 500px;
+    /* Altura deseada */
+}
+
+.carousel-item img {
+    max-height: 500px;
+    /* Altura máxima de la imagen */
+    object-fit: cover;
+    /* Redimensionar la imagen para ajustarse al contenedor */
+    margin: 0 auto;
+    /* Centrar la imagen horizontalmente */
+}
