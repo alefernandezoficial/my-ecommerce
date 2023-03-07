@@ -22,7 +22,7 @@ function Header() {
                         <img src="images/img-bk3.jpg" className="d-block w-100" alt="img-bk3" />
                         <h3>Indumentarias Gaming</h3>
                         <h2><span className="badge rounded-pill text-bg-danger">¡Tus prendas favoritas!</span></h2>
-                        <p><i className="bi bi-person-heart"></i> - <i className="bi bi-bag-heart-fill"></i> - <i class="bi bi-shop"></i></p>
+                        <p><i className="bi bi-person-heart"></i> - <i className="bi bi-bag-heart-fill"></i> - <i className="bi bi-shop"></i></p>
                     </div>
                 </div>
 
