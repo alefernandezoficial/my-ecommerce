@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
+import { Fade } from "react-reveal";
+
 // Pages
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -15,6 +17,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+    <Fade>
     <div className="App">
 
       <NavBar />
@@ -30,6 +33,7 @@ function App() {
       </Routes>
       <Footer />
     </div >
+    </Fade>
   );
 }
 

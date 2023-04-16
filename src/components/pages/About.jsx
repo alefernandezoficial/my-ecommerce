@@ -1,8 +1,11 @@
 import React from 'react'
 import '../../styles/pages/About.css'
 
+import { Zoom } from "react-reveal";
+
 function About() {
     return (
+        <Zoom>
         <div className='about-container-info'>
             <p>Nos destacamos por ser una empresa seria con distintivos, por supuesto
                 de poseer las mejores marcas gaming de sponsors como <span className='badge text-bg-dark'>Razer, Steel Series,
@@ -13,6 +16,7 @@ function About() {
                 <span className='badge text-bg-dark'>SickGamers.</span>
             </p>
         </div>
+        </Zoom>
     )
 }
 

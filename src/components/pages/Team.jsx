@@ -1,9 +1,12 @@
 import React from 'react'
 import '../../styles/pages/Team.css';
 
+import { Zoom } from 'react-reveal';
+
 function Team() {
 
     return (
+        <Zoom>
         <div className='team-container-info'>
             <h1>Nuestro Team</h1>
 
@@ -13,6 +16,7 @@ function Team() {
             <hr></hr>
             <p>Juntos, estos miembros del staff tienen un conjunto diverso de habilidades que les permiten destacarse en la industria de los videojuegos y la indumentaria gaming. Con su experiencia y conocimientos, son capaces de impulsar y llevar al siguiente nivel a cualquier empresa o proyecto en el que trabajen.</p>
         </div>
+        </Zoom>
     )
 }
 

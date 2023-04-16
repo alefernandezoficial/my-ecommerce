@@ -1,8 +1,11 @@
 import React from 'react'
 import '../../styles/pages/Contact.css';
 
+import { Zoom } from "react-reveal";
+
 function Contact() {
     return (
+        <Zoom>
         <div className='contact-container-info'>
             <h1>Contacto:</h1>
 
@@ -25,6 +28,7 @@ function Contact() {
             <hr></hr>
             <i class="bi bi-envelope-at-fill"></i> <a href='mailto:administracion@sickgamersoficial.com.ar'>Administracion</a>
         </div>
+        </Zoom>
     )
 }
 
