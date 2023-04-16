@@ -17,10 +17,10 @@ function Footer() {
                     <div className="col-md-12 col-lg-4">
                         <h3>Síguenos en redes sociales</h3>
                         <ul className="social-media">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#"></a>Facebook</li>
+                            <li><a href="#"></a>Instagram</li>
+                            <li><a href="#"></a>Whatsapp</li>
+                            <li><a href="#"></a>Twitter</li>
                         </ul>
                     </div>
                 </div>
